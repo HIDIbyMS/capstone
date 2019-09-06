@@ -1,7 +1,6 @@
 
 .flex-container {
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
   }
 
@@ -19,12 +18,18 @@ header {
   }
 
   #school {
-      font-size: 32px;
+    font-size: 32px;
+    padding-bottom: 16px;
+  }
+
+  #academy {
+      color: grey;
   }
   
   nav {
     text-align: right;
     flex-grow: 1;
+    padding-bottom: 16px;
   }
   
   nav span {
@@ -41,6 +46,9 @@ header {
       color: black;
   }
 
+  a:hover {
+    color: lightgrey;
+  }
 
 /* main info banner */
 #banner {
@@ -48,6 +56,7 @@ header {
     background-size: cover;
     background-position: center;
     padding: 32px 24px;
+    display: block;
 }
 
 #banner-img {
@@ -59,3 +68,31 @@ header {
       padding: 8px 40px;
      
   }
+
+
+
+  /* courses section */
+  #courses {
+    background-color: lightgrey;
+    background-size: cover;
+    background-position: center;
+    padding: 32px 24px;
+}
+
+#guest {
+    background-color: lightgrey;
+}
+
+/* thesis section */
+
+video {
+    width: 60%;
+}
+
+#fisma {
+    background-color: lightgrey;
+}
+
+#fisma #now-then {
+    width: 40%;
+}
