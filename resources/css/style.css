@@ -1,18 +1,43 @@
 
 /* navigation */
+.navigation {
+ 
+ }
+
+
 ul {
+    list-style-type: none;
     margin: 0;
     padding: 0;
-    text-align: center;
+    overflow: hidden;
+    height: 64px;
 }
 
 li {
     display: inline;
 }
 
-#school {
-    font-size: 32px;
+.logo {
+    float: left;
+    padding-left: 24px;
+    /* height: 64px; */
 }
+
+
+ #school {
+    font-size: 32px;
+    text-align: left;
+    float: left;
+    /* padding-left: 24px; */
+}
+
+#nav-bar {
+    float: right;
+    text-align: right;
+    flex-grow: 1;
+}
+
+
 
 /* main info banner */
 #banner {
