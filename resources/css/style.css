@@ -1,42 +1,45 @@
 
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
 /* navigation */
-.navigation {
- 
- }
-
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+header {
+    width: 100%;
     height: 64px;
-}
+    align-items: center;
+  }
+  
+  header img {
+    height: 60px;
+    margin-left: 24px;
+    position: center;
+  }
 
-li {
-    display: inline;
-}
-
-.logo {
-    float: left;
-    padding-left: 24px;
-    /* height: 64px; */
-}
-
-
- #school {
-    font-size: 32px;
-    text-align: left;
-    float: left;
-    /* padding-left: 24px; */
-}
-
-#nav-bar {
-    float: right;
+  #school {
+      font-size: 32px;
+  }
+  
+  nav {
     text-align: right;
     flex-grow: 1;
-}
+  }
+  
+  nav span {
+    display: inline-block;
+    padding-right: 16px;
+  }
 
+  #signin {
+      margin-right: 24px;
+  }
+
+  a {
+      text-decoration: none;
+      color: black;
+  }
 
 
 /* main info banner */
