@@ -94,19 +94,43 @@ header {
     color: white;
   }
 
-
+  #guest {
+    background-color: lightgrey;
+}
 
   /* courses section */
   #courses {
     background-color: lightgrey;
     background-size: cover;
     background-position: center;
-    padding: 32px 24px;
+    padding: 32px 72px;
 }
 
-#guest {
-    background-color: lightgrey;
+#all-courses {
+    background-color: white; 
+    display: block;
+    
 }
+
+#learning {
+    padding-bottom: 32px;
+    text-align: center;
+}
+
+h3 {
+    padding-top: 16px;
+    padding-bottom: 16px; 
+}
+
+#course{
+    padding-bottom: 8px;
+}
+
+
+h3 #course #description {
+    padding-left: 16px;
+}
+
 
 /* thesis section */
 
