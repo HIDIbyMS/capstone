@@ -60,111 +60,13 @@ header {
     color: lightgrey;
   }
 
-/* main info banner */
-/* .row .column {
-    background-color: lightgrey;
-    background-size: cover;
-    background-position: center;
-    padding: 32px 24px;
-    display: block;
-}
-
-.column {
-    float: left;
-}
-
-.img{
-    width: 60%;
-}
-
-.content {
-    width: 40%;
-} 
-
-#banner-img {
-    float: left;
-    /* display: block; */
-    /* margin-left: 24px; */
-    margin-right: auto;
-    width: 60%;
-  }
-
-.content {
-    /* float: right; */
-    /* overflow: auto; */
-    display: block;
-    margin-left: auto;
-    /* margin-right: 24px; */
-    /* padding-left: 24px; */
-    width: 40%;
-}   */
-
-  .btn-main {
-    background-color: rgb(104, 104, 104);
-    padding: 8px 40px;
+/* button */
+.btn-main {
+    padding-top: 8px;
+    padding-bottom: 8px;
     color: white;
-  }
-
-  #guest {
-    background-color: lightgrey;
-}
-
-  /* courses section */
-  #courses {
-    background-color: lightgrey;
-    background-size: cover;
-    background-position: center;
-    padding: 32px 72px;
-}
-
-#learning {
-    padding-bottom: 32px;
-    text-align: center;
-    
-}
-
-#all-courses {
-    display: inline-block;
-    background-color: white; 
-    width: auto;
-    margin: 16px;
-  
-}
-
-#course-img{
-    height: auto;
-}
-
-h3 {
-    padding-top: 16px;
-}
-
-#all-courses{
-    display: inline-block;
+    background-color: darkslategray;
 }
 
 
-h3, #course, #description {
-    padding-left: 16px;
-    text-align: left;
-}
-
-#course, #description{
-color: grey;
-/* font-size: 16px; */
-}
-
-
-/* thesis section */
-
-video {
-    width: 60%;
-}
-
-#fisma {
-    background-color: lightgrey;
-}
-
-#fisma #now-then {
-    width: 40%;
-}
+  /* banner section */
