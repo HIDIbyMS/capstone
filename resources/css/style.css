@@ -9,8 +9,9 @@ body {
 
 .flex-container {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     flex-wrap: wrap;
+    /* width: 100%; */
   }
 
 /* navigation */
@@ -30,6 +31,8 @@ header {
   #school {
     font-size: 32px;
     padding-bottom: 16px;
+    padding-top: 16px;
+    position: center;
   }
 
   #academy {
@@ -40,15 +43,17 @@ header {
     text-align: right;
     flex-grow: 1;
     padding-bottom: 16px;
+    padding-top: 16px;
+    
   }
   
   nav span {
     display: inline-block;
-    padding-right: 16px;
+    margin-left: 16px;
   }
 
   #signin {
-      margin-right: 24px;
+    margin-right: 24px;
   }
 
   a {
@@ -62,11 +67,33 @@ header {
 
 /* button */
 .btn-main {
-    padding-top: 8px;
-    padding-bottom: 8px;
+    padding: 8px 20px;
+   
     color: white;
     background-color: darkslategray;
+    width: auto;
 }
 
+.btn-main:hover {
+    background-color: gray;
+    color: white;
+}
 
   /* banner section */
+
+
+#banner-img{
+    float: left;
+    padding: 32px 24px;
+    height: auto;
+    width: 60%;
+}
+
+/* .content-banner {
+    
+    text-align: left;
+    display: inline-block;
+    width: 40%;
+
+} */
+
