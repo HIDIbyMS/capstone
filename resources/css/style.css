@@ -124,21 +124,23 @@ header {
 }
 
 #all-courses {
+    display: inline-block;
     background-color: white; 
+    width: auto;
     margin: 16px;
-    display: block;
-    
+  
 }
 
-
+#course-img{
+    height: auto;
+}
 
 h3 {
     padding-top: 16px;
-    /* padding-bottom: 16px;  */
 }
 
-#course{
-    /* padding-bottom: 8px; */
+#all-courses{
+    display: inline-block;
 }
 
 
