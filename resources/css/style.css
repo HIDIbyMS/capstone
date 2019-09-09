@@ -4,14 +4,15 @@ body {
     margin: 0;
     font-family: Helvetica, sans-serif;
     text-align: center;
-    background-color: lightgrey;
+    
 }
 
 .flex-container {
     display: flex;
-    /* justify-content: center; */
-    flex-wrap: wrap;
-    /* width: 100%; */
+    /* flex-wrap: nowrap; */
+    min-width: 33%;
+    max-width: 100%;
+    flex-grow: 1;
   }
 
 /* navigation */
@@ -40,6 +41,7 @@ header {
   }
   
   nav {
+    font-size: 22px;
     text-align: right;
     flex-grow: 1;
     padding-bottom: 16px;
@@ -68,9 +70,9 @@ header {
 /* button */
 .btn-main {
     padding: 8px 20px;
-   
     color: white;
-    background-color: darkslategray;
+    background-color: black;
+    opacity: .75;
     width: auto;
 }
 
@@ -80,20 +82,105 @@ header {
 }
 
   /* banner section */
-
-
-#banner-img{
-    float: left;
+#banner {
+    background-color: lightgrey;
     padding: 32px 24px;
-    height: auto;
-    width: 60%;
 }
 
-/* .content-banner {
-    
-    text-align: left;
-    display: inline-block;
-    width: 40%;
+.flex-container #banner {
+    display: flex;
+    flex-direction: row;
+}
 
-} */
+.content, #banner-img{
+    height: auto;
+    float: left;
+    flex: 1 60%;
+  
+  }
+
+.content-banner {
+    float: right;
+    font-size: .75rem;
+    text-align: left;
+  }
+
+
+  /* orientation main */
+  
+  .main {
+    display: flex;
+    padding: 32px 24px;
+  
+}
+
+.main-info {
+    flex-direction: column;
+}
+
+#guest {
+    background-color: lightgray;
+}
+
+
+/* courses section */
+#courses {
+    background-color: lightgray;
+}
+
+.all-courses {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 32px 24px;
+    flex-direction: row;
+    background-color: white;
+}
+
+
+
+
+/* thesis section */
+
+.thesis-section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 32px 24px;
+    flex-direction: row;
+   
+}
+
+.thesis-section, h3, p {
+    text-align: left
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+/* footer */
+
+footer {
+    width: 100%;
+    height: 64px;
+    align-items: center;
+    background-color: white;
+    margin-left: 24px;
+    padding-top: 16px;
+    margin-right: 24px;
+    justify-content: center;
+
+  }
+
+  span {
+      /* display: inline-block; */
+      text-align: right;
+      flex: 1;
+      margin-right: 16px;
+  }
+
+
+
 
