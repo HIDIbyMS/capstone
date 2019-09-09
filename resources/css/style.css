@@ -128,7 +128,7 @@ header {
     background-color: lightgray;
 }
 
-.all-courses {
+.all-courses-one {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -137,6 +137,14 @@ header {
     background-color: white;
 }
 
+.all-courses-two {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 32px 24px;
+    flex-direction: row;
+    background-color: white;
+}
 
 
 
@@ -159,6 +167,11 @@ video {
     width: 100%;
     height: auto;
 }
+
+.fisma-now-then {
+    flex-direction: column;
+}
+
 
 /* footer */
 
