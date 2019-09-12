@@ -1,0 +1,158 @@
+/* nav bar section responsive styling */
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+    /* REMEMBER TO REPLACE WITH ICONS */
+
+    #school, #academy, nav{
+        display: none;
+    }
+
+}
+
+
+
+
+
+
+/* banner section responsive styling */
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+    .content, .content-banner {
+        padding: 0;
+        width: 100%;
+        align-items: left;
+        justify-content: flex-start;
+        flex-direction: column;
+        -webkit-flex-direction: column;
+        background-color: lightgray;
+    }
+}
+
+/* main information - orientation */
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+    .main {
+        display: none;
+        padding: 0;
+        padding-left: 0;
+        /* flex-direction: column; */
+        width: 0;
+        flex-wrap: 0;
+        float: 0;
+        order: 2;
+    }
+
+/* .main-info {
+        padding: 0;
+        width: 100%;
+        align-items: left;
+        justify-content: flex-start;
+        flex-direction: column;
+        -webkit-flex-direction: column;
+        background-color: lightgray;
+        order: 0;
+        justify-content: flex-start;
+        background-color: white;
+        padding: 0;
+        margin: 0;
+        } */
+
+    #orientation, #campus, #guest {
+        padding: 0 100px;
+        width: 100%;
+        align-items: left;
+        justify-content: flex-start;
+        flex-direction: column;
+        -webkit-flex-direction: column;
+        background-color: lightgray;
+    }
+
+    #orientation img, #campus img, #guest img {
+    /* REMEMBER TO CHANGE TO NEW IMAGES */
+
+        float: left;
+        width: 100%;
+        /* align-content: stretch; */
+        /* padding-top: 20px; */
+        /* padding-right: 24px; */
+        /* padding-left: 12px; */
+    }
+
+    #orient-date {
+        font-size: .95rem;
+        text-align: left;
+        padding-top: 15px;
+    }
+    
+    #schedule {
+        font-size: .75rem;
+        text-align: left;
+    }
+    
+    #read-more {
+        font-size: .75rem;
+        text-align: left;
+    }
+    
+    #read-more a {
+        color: blue;
+    }
+    
+
+
+}
+
+
+/* courses section responsive styling */
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+    #learning {
+        text-align: left;
+    }
+
+    #courses {
+        justify-content: flex-start;
+        background-color: white;
+        padding: 0;
+        margin: 0;
+     } 
+
+    .all-courses-one, .all-courses-two {
+        padding: 0;
+        /* width: 100%; */
+        align-items: left;
+        justify-content: flex-start;
+        flex-direction: column;
+        -webkit-flex-direction: column;
+        background-color: lightgray;
+         
+        }
+    #software, #computer, #design, #data, #business, #marketing {
+        border: solid white 8px;
+        padding: 0 160px;
+        text-align: left;
+    }
+
+   
+
+    #software img, #computer img, #design img, #data img, #business img, #marketing img{
+        display: none;
+    }
+
+    .courses-title, .course-descrip {
+        display: none;
+    }
+
+ }
+
+ /* thesis section responsive styling */
+ @media only screen and (min-width: 480px) and (max-width: 768px) {
+    .thesis-section h3, .thesis-section p, .fisma-now-then {
+        display: none;
+    }
+
+}
+
+/* footer section responsive styling */
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+    #terms, #privacy {
+        display: none;
+    }
+
+}
