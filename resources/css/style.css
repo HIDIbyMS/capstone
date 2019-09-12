@@ -9,9 +9,6 @@ body {
 
 .flex-container {
     display: inline-flex;
-    /* justify-content: flex-start; */
-    /* align-items: stretch; */
-    /* align-content: space-around; */
   }
 
 /* navigation bar section*/
@@ -53,6 +50,7 @@ header {
   
   nav span {
     display: inline-block;
+    margin-left: 16px;
      }
 
   #signin {
@@ -181,18 +179,22 @@ header {
 
 #orient-date {
     font-size: .95rem;
-    justify-content: center;
+    text-align: left;
     padding-top: 15px;
 }
 
 #schedule {
     font-size: .75rem;
-    justify-content: flex-start;
+    text-align: left;
 }
 
-#read-more a{
-    color: blue;
+#read-more {
     font-size: .75rem;
+    text-align: left;
+}
+
+#read-more a {
+    color: blue;
 }
 
 #guest {
@@ -232,78 +234,134 @@ header {
 
 .course-name {
     font-size: 1rem;
-    justify-content: center;
+    text-align: left;
     margin-left: 16px;
 }
 
 .courses-title {
     font-size: .90rem;
-    justify-content: center;
+    text-align: left;
     margin-left: 16px;
 
 }
 
 .course-descrip {
     font-size: .85rem;
-    justify-content: center;
+    text-align: left;    
     margin-left: 16px;
     margin-right: 16px;
 }
 
-
-
-
-
-
 /* thesis section */
 
 .thesis-section {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 32px 24px;
-    flex-direction: row;
-   
-}
+    padding-left: 24px;
+    flex-direction: column;
+    width: 60%;
+    flex-wrap: wrap;
+    float: left;
+    padding-bottom: 32px;
+    }
 
-.thesis-section, h3, p {
-    text-align: left
-}
-
-video {
+ video {
     width: 100%;
     height: auto;
+    flex-shrink: 0;
+    flex: 0;
 }
 
+.thesis-section {
+    text-align: left;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.thesis-section h3 {
+    font-size: 1rem;
+    justify-content: center;
+    text-align: left;
+}
+
+.thesis-section p {
+    font-size: .85rem;
+    justify-content: center;
+    text-align: left;
+}
+
+
+/* video section right side */
 .fisma-now-then {
     flex-direction: column;
+    width: 35%;
+    flex-wrap: wrap;
+    float: right;
+    padding-bottom: 32px;
 }
+
+#fisma img, #now-then img {
+    float: left;
+    height: auto;
+    width: 35%;
+    padding-top: 20px;
+    padding-right: 24px;
+    padding-left: 12px;
+   }
 
 #fisma {
     background-color: lightgray;
+    padding-bottom: 24px;
 }
 
+#fisma h3, #now-then h3 {
+    font-size: .95rem;
+    justify-content: center;
+    text-align: left;
+   }
+
+#fisma h3 {
+    padding-top: 40px;
+}
+
+#now-then h3 {
+    padding-top: 55px;
+}
+
+#fisma p, #now-then p{
+    font-size: .75rem;
+    justify-content: center;
+    text-align: left;
+}
 
 /* footer */
 
 footer {
     width: 100%;
     height: 64px;
-    align-items: center;
     background-color: white;
-    margin-left: 24px;
-    padding-top: 16px;
-    margin-right: 24px;
-    justify-content: center;
-    clear: both;
+ 
   }
 
-  span {
-      /* display: inline-block; */
-      text-align: right;
-      flex: 1;
-      margin-right: 16px;
+  #copy {
+    font-size: 20px;
+    text-align: left;
+    margin-left: 24px;
   }
+
+  #terms {
+    font-size: 20px;
+    text-align: right;
+    flex-grow: 6.5;
+    position: center;
+    display: inline-block;
+  }
+
+  #privacy {
+    font-size: 20px;
+    margin-left: 16px;
+    margin-right: 24px;
+  }
+
+  
 
 
 
