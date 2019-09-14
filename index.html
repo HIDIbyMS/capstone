@@ -7,6 +7,9 @@
         <title>Capstone Academy Site</title>
         <link rel="stylesheet" type="text/css" href="C:\Users\Michelle.000\Desktop\CODING\capstone\resources\css\style.css">
         <link rel="stylesheet" type="text/css" href="C:\Users\Michelle.000\Desktop\CODING\capstone\resources\css\mediastyle.css">
+        <link rel="stylesheet" type="text/css" href="C:\Users\Michelle.000\Desktop\CODING\capstone\resources\css\mobilemediastyle.css">
+        <link rel="stylesheet" type="text/css" href="C:\Users\Michelle.000\Desktop\CODING\capstone\resources\css\tabletmediastyle.css">
+
     </head>
 
 <body>
@@ -14,11 +17,15 @@
     <header class="flex-container">
             <span id="logo"><img src="resources/images/ic-logo.svg" /></span>
             <span id="school"><strong>COLMAR</strong><span id="academy">ACADEMY</span></span>
+
             <nav>
               <span><a href="#campus">On Campus</a></span>
+                <img id="desk-campus" src="resources/images/ic-on-campus.svg" alt="">
               <span><a href="#online">Online</a></span>
+                <img id="pc-online" src="resources/images/ic-online.svg" alt="">
               <span><a href="#companies">For Companies</a></span>
               <span id="signin"><a href="#signin">Sign In</a></span>
+                <img id="profile-signin" src="resources/images/ic-login.svg" alt="">
             </nav>
     </header>
 
@@ -53,19 +60,22 @@
     
     <div class="main-info flex-container">
             <div id="orientation">
-                <img src="resources/images/information-orientation.jpg" alt="shadows on trail">
+                <img id="normal" src="resources/images/information-orientation.jpg" alt="shadows on trail">
+                    <img id="mobile" src="resources/images/information-orientation-mobile.jpg" alt="">
                 <h3 id="orient-date">Orientation date</h3>
                 <p id="schedule">Tue 10/11 & Wed 10/12: 8am-3pm</p>
                 <p id="read-more"><a href="#read">Read more</a></p>
             </div>
             <div id="campus">
-                <img src="resources/images/information-campus.jpg" alt="libray studying">
+                <img id="normal" src="resources/images/information-campus.jpg" alt="libray studying">
+                    <img id="mobile" src="resources/images/information-campus-mobile.jpg" alt="">
                 <h3 id="orient-date">Our Campus</h3>
                 <p id="schedule">Find which campus is close to you</p>
                 <p id="read-more"><a href="#read">Read more</a></p>
             </div>
             <div id="guest">
-                <img src="resources/images/information-guest-lecture.jpg" alt="older man">
+                <img id="normal" src="resources/images/information-guest-lecture.jpg" alt="older man">
+                    <img id="mobile" src="resources/images/information-guest-lecture-mobile.jpg" alt="">
                 <h3 id="orient-date">Our Guest Lecture</h3>
                 <p id="schedule">Join a keynote with Oliver Stack about music in medical treatment</p>
                 <p id="read-more"><a href="#read">Read more</a></p>
@@ -119,7 +129,7 @@
 
    
 <!-- thesis section -->
-    <h1 id="thesis-title">Thesis Exhibit</h1>
+    <h1 id="thesis-title">Thesis Exhibits</h1>
     <div class="thesis-section flex-container">
          <div id="video-section" >
             <video autoplay loop src="resources/videos/thesis.mp4"></video>

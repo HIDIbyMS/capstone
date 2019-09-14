@@ -1,21 +1,40 @@
 /* nav bar section responsive styling */
-@media only screen and (min-width: 480px) and (max-width: 768px) {
-    /* REMEMBER TO REPLACE WITH ICONS */
+@media only screen and (min-width: 1100px) {
+ nav img {
+    display: none;
+ }
 
-    #school, #academy, nav{
-        display: none;
-    }
+ .main-info #mobile {
+     display: none;
+ }
 
 }
 
+/* medium screen 600px to 992px */
+@media only screen and (min-width: 600px) and (max-width: 1100px) {
 
+ /*nav bar section responsive  */
+    #school, #academy{
+        display: none;
+    }
 
-
-
+   nav img {
+       display: none;
+    }
 
 /* banner section responsive styling */
-@media only screen and (min-width: 480px) and (max-width: 768px) {
-    .content, .content-banner {
+    #banner {
+        padding: 0 16px 0 0;
+        width: 100%;
+    }
+
+    .cotent-banner {
+        padding: 0;
+        width: 100%;
+        align-items: center;
+    }
+
+    /* .content, .content-banner {
         padding: 0;
         width: 100%;
         align-items: left;
@@ -23,20 +42,27 @@
         flex-direction: column;
         -webkit-flex-direction: column;
         background-color: lightgray;
+    } */
+
+    .text {
+        margin: 0;
     }
-}
+
+    .content #banner-img {
+        width: 95%;
+        height: auto;
+        float: left;
+        margin-right: 24px;
+    }
+
+    #btn-main {
+        margin: 0;
+        padding-top: 32px;
+    }
 
 /* main information - orientation */
-@media only screen and (min-width: 480px) and (max-width: 768px) {
     .main {
         display: none;
-        padding: 0;
-        padding-left: 0;
-        /* flex-direction: column; */
-        width: 0;
-        flex-wrap: 0;
-        float: 0;
-        order: 2;
     }
 
 /* .main-info {
@@ -75,6 +101,10 @@
         /* padding-left: 12px; */
     }
 
+    .main-info #normal {
+        display: none;
+    }
+
     #orient-date {
         font-size: .95rem;
         text-align: left;
@@ -95,13 +125,7 @@
         color: blue;
     }
     
-
-
-}
-
-
 /* courses section responsive styling */
-@media only screen and (min-width: 480px) and (max-width: 768px) {
     #learning {
         text-align: left;
     }
@@ -129,8 +153,6 @@
         text-align: left;
     }
 
-   
-
     #software img, #computer img, #design img, #data img, #business img, #marketing img{
         display: none;
     }
@@ -139,20 +161,15 @@
         display: none;
     }
 
- }
-
  /* thesis section responsive styling */
- @media only screen and (min-width: 480px) and (max-width: 768px) {
     .thesis-section h3, .thesis-section p, .fisma-now-then {
         display: none;
     }
 
-}
-
 /* footer section responsive styling */
-@media only screen and (min-width: 480px) and (max-width: 768px) {
     #terms, #privacy {
         display: none;
     }
 
 }
+

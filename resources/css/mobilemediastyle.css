@@ -1,0 +1,215 @@
+/* mobile styling */
+
+/* medium screen less than 600px */
+@media only screen and (max-width: 600px) {
+   
+/* mobile nav bar section */
+     header #school, header #academy, nav a {
+         display: none;
+     }
+ 
+     header img {
+         margin-left: 45px;
+     }
+ 
+     nav img {
+         display: flex;
+         margin-left: 45px;
+         height: 45px;
+         
+     }
+ 
+/* mobile banner section */
+     #banner {
+         padding: 0 16px 0 0;
+         width: 100%;
+     }
+    .content-banner {
+        padding: 0;        
+        width: 100%;
+        align-items: center;
+    }
+
+    .text {
+        text-align: left;
+        margin-left: 16px;
+    }
+
+    .content #banner-img {
+        width: 100%;
+        height: auto;
+        float: left;
+        margin: 0;
+        padding: 0;
+    }
+
+    #btn-main {
+        margin-left: 16px;
+        margin-top: 24px;
+        margin-bottom: 32px;
+        padding: 0;
+    }
+ 
+/* mobile courses */
+
+/* main information - orientation */
+.main {
+    display: none;
+    padding: 0;
+    flex-direction: none;
+    width: 0;
+    flex-wrap: nowrap;
+    float: none;
+}
+
+.main-info {
+    padding: 0;
+    width: 100%;
+    align-items: left;
+    justify-content: flex-start;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    background-color: lightgray;
+    justify-content: flex-start;
+    background-color: white;
+    margin: 0;
+    }
+
+#orientation, #campus, #guest {
+    padding: 0;
+    width: 100%;
+    align-items: left;
+    justify-content: flex-start;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    background-color: white;
+}
+
+#guest {
+    padding-bottom: 32px;
+}
+
+#orientation img, #campus img, #guest img {
+    float: left;
+    width: 93%;
+    height: auto;
+    margin: 16px;
+    padding: 0;
+}
+
+.main-info #normal {
+    display: none;
+}
+
+#orient-date {
+    font-size: .95rem;
+    text-align: left;
+    padding-top: 15px;
+    margin-left: 16px;
+}
+
+#schedule {
+    font-size: .75rem;
+    text-align: left;
+    margin-left: 16px;
+}
+
+#read-more {
+    font-size: .75rem;
+    text-align: left;
+    margin-left: 16px;
+}
+
+#read-more a {
+    color: blue;
+}
+
+/* courses section responsive styling */
+#learning {
+    text-align: center;
+    padding-bottom: 16px;
+    margin: 0;
+}
+
+#courses {
+    justify-content: none;
+    /* background-color: white; */
+    padding: 0;
+    margin: 0;
+    flex-direction: none;
+    /* width: 100%;  */
+    flex-wrap: nowrap; 
+    display: contents;
+  } 
+
+.all-courses-one, .all-courses-two {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    background-color: lightgray;
+    }
+
+#software, #computer, #design, #data, #business, #marketing {
+    border: solid white 8px;
+    width: 98%;
+    text-align: left;
+    font-size: 1rem;
+}
+
+#software img, #computer img, #design img, #data img, #business img, #marketing img{
+    display: none;
+    width: 0;
+}
+
+.courses-title, .course-descrip {
+    display: none;
+    font-size: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/* thesis section responsive styling */
+.thesis-section {
+    padding: 0;
+    flex-direction: column;
+    width: 100%;
+    flex-wrap: wrap;
+    float: left;
+    }
+
+#thesis-title {
+    font-size: 1.5rem;
+    text-align: center;
+    align-items: flex-end;
+    margin: 0;
+}
+
+
+.thesis-section h3, .thesis-section p, .fisma-now-then {
+    display: none;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    float: left;
+    margin: 0;
+    padding-bottom: 24px;
+    padding-top: 16px;
+}
+
+
+
+/* footer section responsive styling */
+#terms, #privacy {
+    display: none;
+}
+
+footer {
+padding: 16px 0;
+
+}
+
+}
